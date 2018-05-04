@@ -199,7 +199,7 @@ header.masthead p {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 650px;
+    min-height: 850px;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -221,7 +221,7 @@ header.masthead p {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -289,7 +289,7 @@ header.masthead p {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 300px;
+  border-radius: 30px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
