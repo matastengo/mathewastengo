@@ -379,7 +379,7 @@ footer .progress {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 5px;
+  height: 4px;
   background: transparent;
   z-index: 1;
 }  
