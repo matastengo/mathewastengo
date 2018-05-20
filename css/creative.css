@@ -207,6 +207,15 @@ header.masthead {
   background-size: cover;
 }
 
+.parallax2 { 
+  background-image: url("../img/header.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
