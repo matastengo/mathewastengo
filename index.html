@@ -270,6 +270,14 @@
         </div>
   </div>
 
+  <footer>
+    <div class="progress">
+      <div class="bar"></div>
+  </div>
+
+  </footer>
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -282,6 +290,28 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
+    <!-- Progress Breadcrumb on the footer -->
+  <script>
+    function progress() {
+    
+    var windowScrollTop = $(window).scrollTop();
+    var docHeight = $(document).height();
+    var windowHeight = $(window).height();
+    var progress = (windowScrollTop / (docHeight - windowHeight)) * 100;
+    var $bgColor = progress > 99 ? '#fc8da0' : '#fc8da0)';
+    var $textColor = progress > 99 ? '#fff' : '#333';
+    
+    $('.progress .bar').width(progress + '%').css({ backgroundColor: $bgColor });
+    $('.fill').height(progress + '%').css({ backgroundColor: $bgColor });
+    }
+    
+    progress();
+    
+    $(document).on('scroll', progress);
+    </script>
+
   </body>
+
+  
 
 </html>
