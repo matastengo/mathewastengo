@@ -198,6 +198,15 @@ header.masthead {
   background-size: cover;
 }
 
+.parallax { 
+  background-image: url("../img/header.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -311,9 +320,9 @@ header.masthead p {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
+  }
 
 
 .btn-xl {
@@ -334,3 +343,9 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgb(155, 184, 185)) !important;
 }
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
