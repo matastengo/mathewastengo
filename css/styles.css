@@ -10975,15 +10975,16 @@ section.resume-section .resume-section-content {
 
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 3rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #063330;
+    padding: 0 0 0 1rem;
+    border-left: 0.25rem solid #063330;
+    margin-left: 1rem;
   }
 }
 .projects-section .project-text {
