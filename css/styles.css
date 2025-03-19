@@ -10947,6 +10947,19 @@ p.lead {
 }
 
 section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 100rem;
+}
+section.resume-section .resume-section-content {
+  width: 100%;
+}
+
+section.resume-section2 {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
